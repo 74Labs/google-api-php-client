@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "google/google-api-php-client": {
+            "dev-master": { 
+                "name": "google/google-api-php-client",
+                "type": "library",
+                "version": "dev-master",
+                "description": "Composer wrapper for google-api-php-client library",
+                "source": {
+                    "type": "svn",
+                    "url": "http://google-api-php-client.googlecode.com/svn/",
+                    "reference": "trunk"
+                },
+                "autoload": {
+                    "classmap": ["src"]
+                }
+            },
+            "0.6.7": {
+                "name": "google/google-api-php-client",
+                "type": "library",
+                "version": "0.6.7",
+                "description": "Composer wrapper for google-api-php-client library",
+                "source": {
+                    "type": "svn",
+                    "url": "http://google-api-php-client.googlecode.com/svn/tags/",
+                    "reference": "0.6.7"
+                },
+                "autoload": {
+                    "classmap": ["src"]
+                }			
+            }
+        }
+    }
+}
